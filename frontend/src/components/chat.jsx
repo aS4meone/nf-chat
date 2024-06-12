@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://195.49.210.50:9000');
+const socket = io('https://nf-chat.onrender.com');
 
 export default function ChatComponent({ client }) {
     const [message, setMessage] = useState("");
