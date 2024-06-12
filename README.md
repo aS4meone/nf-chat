@@ -6,6 +6,8 @@ npx tsc
 npm run serve
 ```
 # Run Frontend
+```
 npm i
 npm run build
 npm run start
+```
